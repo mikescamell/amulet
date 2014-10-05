@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/account_details_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/account_details_name_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0.04"
+            android:gravity="center_vertical|center_horizontal|bottom"
+            android:text="@string/account_details_name_prompt"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.04"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AmuletBlue" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:id="@+id/account_details_email_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_weight="0.04"
+            android:gravity="center_vertical|center_horizontal|bottom"
+            android:text="@string/account_details_email_prompt"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_email_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.04"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AmuletBlue"
+            android:textIsSelectable="false" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:id="@+id/account_details_password_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_weight="0.04"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/account_details_password_prompt"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_password_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.04"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textPassword"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AmuletBlue" />
+
+        <!--<View style="@style/Divider" />-->
+
+        <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/action_show_password"-->
+        <!--android:id="@+id/account_details_show_password_checkbox"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/account_details_task_baselines_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/account_details_task_baselines"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_inspection_task_baselines_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="37dp"
+            android:gravity="center"
+            android:text="@string/account_details_inspection_task"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_inspection_task_baseline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/fragment_accountDetails_hint_inspection_task_time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AmuletBlue" />
+
+        <TextView
+            android:id="@+id/account_details_sequence_task_baselines_prompt_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="37dp"
+            android:gravity="center|bottom"
+            android:text="@string/fragment_accountDetails_sequence_task"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/account_details_sequence_task_value_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="@string/fragment_accountDetails_hint_inspection_task_time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AmuletBlue" />
+    </LinearLayout>
+</LinearLayout>

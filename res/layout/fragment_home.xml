@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_home_view"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_home_welcome_to_textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_home_welcome_to"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <scamell.michael.amulet.CoolveticaTextView
+            android:id="@+id/fragment_home_amulet_textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_home_amulet"
+            android:textColor="@color/Black"
+            android:textSize="90sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_home_you_were_last_here_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:gravity="left|center_vertical"
+        android:text="@string/fragment_home_you_were_last_here"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_home_date_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left|center_vertical"
+        android:text="@string/fragment_home_date_default"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fragment_home_your_last_drink_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif"
+        android:gravity="right|center_vertical"
+        android:text="@string/fragment_home_your_last_drink_was"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_home_login_last_drink_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="right|center_vertical"
+        android:hint="@string/fragment_home_hint_no_drink_added"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fragment_home_and_had_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif"
+        android:gravity="right|center_vertical"
+        android:text="@string/fragment_home_and_had"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="" />
+
+    <TextView
+        android:id="@+id/fragment_home_units_value_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="right|center_vertical"
+        android:hint="@string/fragment_home_hint_no_drink_added"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fragment_home_you_last_played_the_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:gravity="left|center_vertical"
+        android:text="@string/fragment_home_you_last_played_the"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_home_task_played_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left|center_vertical"
+        android:hint="@string/fragment_home_hint_no_tasks_played"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fragment_home_fragment_home_and_scored_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:gravity="left|center_vertical"
+        android:text="@string/fragment_home_and_scored"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_home_task_score_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left|center_vertical"
+        android:hint="@string/fragment_home_hint_no_tasks_played"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fragment_home_you_had_consumed_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif"
+        android:gravity="right|center_vertical"
+        android:text="@string/fragment_home_you_had_consumed"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="" />
+
+    <TextView
+        android:id="@+id/fragment_home_last_task_units_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:fontFamily="sans-serif-light"
+        android:gravity="right|center_vertical"
+        android:hint="@string/fragment_home_hint_no_tasks_played"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/AmuletBlue"
+        android:textStyle="italic" />
+
+</LinearLayout>

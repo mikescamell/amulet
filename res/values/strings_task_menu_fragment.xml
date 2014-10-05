@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_menu_fragment_inspection_content_description">Inspection Time Task</string>
+    <string name="inspection_task">Inspection Task</string>
+    <string name="sequence_task">Sequence Task</string>
+    <string name="content_description_task_menu_inspection_image">Inspection Time Task</string>
+    <string name="task_menu_inspection">Inspection Task</string>
+    <string name="content_description_task_menu_sequence">Sequence Task</string>
+    <string name="task_menu_sequence">Sequence Task</string>
+</resources>

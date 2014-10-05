@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_margin="16dp">
+
+    <View
+        android:id="@+id/uc_fakeView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/unit_calculator_drink_name_subtitle_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="@string/dialog_drink_name_subtitle"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/unit_calculator_drink_name_message_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/unit_calculator_drink_name_subtitle_textview"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:gravity="left"
+                android:text="@string/unit_calc_drink_name_message"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic" />
+
+            <AutoCompleteTextView
+                android:id="@+id/unit_calculator_drink_name_edittext"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/unit_calculator_drink_name_message_textview"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/AmuletBlue"
+                android:layout_marginTop="2dp"
+                android:focusable="true"
+                android:hint="@string/dialog_drink_example"
+                android:inputType="text"
+                android:nextFocusDown="@+id/dialog_drink_volume"/>
+
+        <View
+        android:id="@+id/uc_fakeView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/enter_abv_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/unit_calculator_drink_name_edittext"
+            android:gravity="center"
+            android:text="@string/unit_calc_abv_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/unit_calc_enter_abv_edittext"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_abv_textview"
+            android:layout_marginTop="5dp"
+            android:nextFocusDown="@+id/unit_calc_volume_edittext"
+            android:gravity="center_horizontal"
+            android:textColor="@color/AmuletBlue"
+            android:inputType="numberDecimal"
+            android:maxLength="5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/unit_calc_enter_abv_edittext"
+            android:layout_toRightOf="@+id/unit_calc_enter_abv_edittext"
+            android:text="@string/unit_calc_percentage"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/uc_fakeView2"
+            android:layout_alignBottom="@id/enter_abv_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/unit_calc_drink_volume_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/unit_calc_volume_edittext"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:nextFocusDown="@+id/numberPicker"
+            android:layout_toRightOf="@id/uc_fakeView2"
+            android:gravity="center_horizontal"
+            android:imeOptions="actionDone"
+            android:textColor="@color/AmuletBlue"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:prompt="@string/dialog_drink_type_spinner_prompt" />
+
+        <Spinner
+            android:id="@+id/unit_calc_volume_measurement_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/unit_calc_volume_edittext"
+            android:layout_toRightOf="@id/unit_calc_volume_edittext"
+            android:entries="@array/unit_calculator_measurements" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/unit_calc_volume_edittext">
+
+            <TextView
+                android:id="@+id/unit_calculator_type_subtitle_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_marginTop="30dp"
+                android:text="@string/dialog_drink_type_subtitle"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/unit_calculator_drink_type_spinner"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:focusable="true"
+                android:layout_below="@id/unit_calculator_type_subtitle_textView"
+                android:focusableInTouchMode="true"
+                android:prompt="@string/dialog_drink_type_spinner_prompt" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:layout_toLeftOf="@id/numberPicker"
+                android:text="@string/unit_calc_select_quantity_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/AmuletBlue"
+                android:imeOptions="actionDone"
+                android:maxLength="3" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout1">
+
+        <TextView
+            android:id="@+id/unit_calc_unit_total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:gravity="right"
+            android:text="@string/unit_calc_total_units_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/unit_calc_unit_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/AmuletBlue"
+            android:layout_weight="0.5"
+            android:text="@string/unit_calc_units_value"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/unit_calc_start_task_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="0dp"
+            android:contentDescription="@string/content_description_unit_calc_start_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_to_drink_diary_checkbox"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerInParent="true"
+        android:text="@string/unit_calc_save_to_drink_diary"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sequence_task_tablelayout"
+    android:layout_width="fill_parent"
+    android:soundEffectsEnabled="false"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1,2,3,4,5">
+
+    <TableRow
+        android:id="@+id/table_row_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/box_1_1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_1_2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_1_3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_1_4"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_1_5"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/table_row_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/box_2_1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_2_2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_2_3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_2_4"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_2_5"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/table_row_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/box_3_1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_3_2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_3_3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_3_4"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_3_5"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/table_row_4"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/box_4_1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_4_2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_4_3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_4_4"
+            android:layout_column="4"
+
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_4_5"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/table_row_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/box_5_1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_5_2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_5_3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_5_4"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/box_5_5"
+            android:layout_column="5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:onClick="checkAnswer"
+            android:padding="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3F7CFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </TableRow>
+
+</TableLayout>

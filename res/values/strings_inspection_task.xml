@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Resume Game Dialog Strings-->
+    <string name="activity_inspection_task_message_dialog">Would you like to resume your game?\n\n
+                                                           While you can resume it\'s probably best if you restart</string>
+    <string name="activity_inspection_task_pos_dialog">Resume</string>
+    <string name="activity_inspection_task_neg_dialog">Close</string>
+    <string name="activity_inspection_task_neu_dialog">Restart</string>
+    <string name="content_description_beer">Beer Image</string>
+
+</resources>

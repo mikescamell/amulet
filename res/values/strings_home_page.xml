@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_home_welcome_to">Welcome to</string>
+    <string name="fragment_home_amulet">Amulet</string>
+    <string name="fragment_home_you_were_last_here">You were last here</string>
+    <string name="fragment_home_your_last_drink_was">Your last drink was</string>
+    <string name="fragment_home_date_default">Today</string>
+    <string name="fragment_home_and_had">And had</string>
+    <string name="fragment_home_you_last_played_the">You last played the</string>
+    <string name="fragment_home_and_scored">And scored</string>
+    <string name="fragment_home_score_milliseconds">%1$d milliseconds</string>
+    <string name="fragment_home_score_seconds">%1$s seconds</string>
+    <string name="fragment_home_you_had_consumed">You had consumed</string>
+    <string name="fragment_home_units_consumed_string_param">%1$s units</string>
+
+    <!--hints-->
+    <string name="fragment_home_hint_no_drink_added">No</string>
+    <string name="fragment_home_hint_no_tasks_played">No tasks played</string>
+    <string name="fragment_home_loading">Loading&#8230;</string>
+
+</resources>

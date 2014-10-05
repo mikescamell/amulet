@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_action_remove"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="@string/menu_clear_entry" />
+
+    <item android:id="@+id/action_add_favourite"
+        android:icon="@drawable/ic_action_important"
+        android:title="@string/menu_set_a_favourite_drink"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_example_list"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        android:title="@string/menu_view_typical_drink" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_action_save"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="4"
+        android:title="@string/menu_save_favourite_drink" />
+
+</menu>

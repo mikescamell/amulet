@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_speed_string_int">%1$d milliseconds</string>
+    <string name="fragment_speed_string_string">%1$s seconds</string>
+    <string name="fragment_your_speed_string">Your Speed Was:</string>
+    <string name="fragment_new_baseline_string">This is your new baseline</string>
+    <string name="fragment_last_speed_string_int">The last time you played your speed was %1$d milliseconds</string>
+    <string name="fragment_last_speed_string_string">The last time you played your speed was %1$s seconds</string>
+    <string name="fragment_task_complete_string">Task Complete!</string>
+    <string name="fragment_task_finish_baseline_message_int">Your baseline is %1$d milliseconds</string>
+    <string name="fragment_task_finish_baseline_message_string">Your baseline is %1$s seconds</string>
+    <string name="fragment_task_finish_slower_than_baseline">You were %1$s %2$s slower than your baseline</string>
+    <string name="fragment_task_finish_faster_than_baseline">You were %1$s %2$s faster than your baseline</string>
+    <string name="fragment_task_finish_same_as_baseline">You have matched your baseline</string>
+</resources>

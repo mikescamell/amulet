@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--add dialog-->
+    <string name="dialog_add_title">Add Drink Diary Entry</string>
+    <string name="dialog_add_message">Please enter the name of your drink and select its type</string>
+    <string name="dialog_drink_name_subtitle">Drink Name</string>
+    <string name="dialog_drink_type_subtitle">Drink Type</string>
+    <string name="dialog_drink_type_spinner_prompt">Select your drink type</string>
+    <string name="dialog_drink_quantity">Quantity</string>
+    <string name="dialog_drink_units">Units</string>
+    <string name="dialog_drink_units_message">Calculate the units or enter them yourself</string>
+    <string name="dialog_drink_example">e.g. Stella Artois</string>
+    <string name="dialog_quantity_example">e.g. 2</string>
+    <string name="dialog_units_example">e.g. 4</string>
+    <string name="dialog_add_confirm_button">Add</string>
+    <string name="dialog_calculate">Calculate</string>
+    <string name="dialog_quantity_initial_value">1</string>
+
+    <!--list of common drink types for add dialog spinner-->
+    <string-array name="drink_type_array">
+        <item>Beer</item>
+        <item>Bottled Beer</item>
+        <item>Cider</item>
+        <item>Wine</item>
+        <item>Champagne</item>
+        <item>Spirit</item>
+        <item>Alcopop</item>
+    </string-array>
+
+    <!--error messages-->
+    <string name="dialog_error_no_drink_name">Enter a drink name</string>
+    <string name="dialog_error_no_drink_quantity">Enter your drink amount</string>
+    <string name="dialog_error_no_units">Enter or calculate the units</string>
+
+    <!--toasts-->
+    <string name="dialog_toast_entry_added">Entry Added</string>
+
+</resources>

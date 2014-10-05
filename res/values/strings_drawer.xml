@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_menu_items">
+        <item>Home</item>
+        <item>Tasks</item>
+        <item>Drink Diary</item>
+        <item>Unit Calculator</item>
+        <item>Account Details</item>
+    </string-array>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Amulet</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="task_instructions_swipe">Swipe Left to Continue</string>
+
+</resources>

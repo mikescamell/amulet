@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="account_details_name_prompt">Name:</string>
+    <string name="account_details_email_prompt">Email:</string>
+    <string name="account_details_password_prompt">Password:</string>
+    <string name="accountDetails_inspection_task_time_value">%1$d milliseconds</string>
+    <string name="accountDetails_sequence_task_time_value">%1$s seconds</string>
+    <string name="account_details_inspection_task">Inspection Task</string>
+    <string name="account_details_task_baselines"><u>Task Baselines</u></string>
+    <string name="account_details_no_baseline">No Baseline Recorded</string>
+    <string name="fragment_accountDetails_hint_inspection_task_time">No time recorded</string>
+    <string name="fragment_accountDetails_sequence_task">Sequence Task</string>
+    <string name="dialog_about_developer_message">Amulet\n\n
+                                                Developed By:\n
+                                                Michael Scamell\n
+                                                University of Hull\n
+                                                Computer Science\n
+                                                May, 2014\n\n</string>
+    <string name="dialog_about_attribution_message">Sound Effects:\n
+                                                freesfx.co.uk\n
+                                                http://www.idgraphics.com\n\n
+                                                freesound.org\n
+                                                No changes made\n
+                                                http://creativecommons.org/licenses/by/3.0/\n\n
+                                                Icons sourced from:\n
+                                                http://www.iconspedia.com/pack/beer---/\n
+                                                http://vector.me/browse/105864/glass_of_champagne_clip_art\n
+                                                http://vector.me/browse/169333/glass_of_wine_clip_art\n
+                                                http://www.iconspedia.com/icon/whiskey-on-the-roglass-of-icon-48940.html\n
+                                                http://qvectors.net/beer-clip-art/\n\n
+                                                All used according to their respective Creative Commons Licenses.\n</string>
+
+
+</resources>

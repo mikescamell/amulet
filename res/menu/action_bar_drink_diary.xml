@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--DrinkDiary Actions-->
+    <item android:id="@+id/action_add_favourite"
+        android:icon="@drawable/ic_action_important"
+        android:title="@string/action_add_favourite"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_add"
+        android:showAsAction="ifRoom"/>
+
+    <!--part of delete option. Removed as server doesn't implement delete-->
+    <!--<item android:id="@+id/action_delete"-->
+        <!--android:icon="@drawable/ic_action_remove"-->
+        <!--android:title="@string/action_delete"-->
+        <!--android:showAsAction="always"/>-->
+
+</menu>

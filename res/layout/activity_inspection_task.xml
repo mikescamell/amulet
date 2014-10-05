@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Needed so the startcountdown fragment can be displayed over it and centered-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inspection_task_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_half"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/top_left_box"
+            android:layout_width="0dp"
+            android:soundEffectsEnabled="false"
+            android:layout_height="fill_parent"
+            android:padding="30dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_beer"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/top_right_box"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="30dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/content_description_beer"
+            android:soundEffectsEnabled="false"
+            android:background="@android:color/transparent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_half"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5">
+
+        <ImageButton
+            android:id="@+id/bottom_left_box"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:padding="30dp"
+            android:adjustViewBounds="true"
+            android:soundEffectsEnabled="false"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/content_description_beer"
+            android:background="@android:color/transparent"
+            android:clickable="true" />
+
+        <ImageButton
+            android:id="@+id/bottom_right_box"
+            android:layout_width="fill_parent"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="30dp"
+            android:contentDescription="@string/content_description_beer"
+            android:layout_height="fill_parent"
+            android:soundEffectsEnabled="false"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

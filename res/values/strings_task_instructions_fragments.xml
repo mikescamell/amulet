@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Last Task Instruction Fragment-->
+    <string name="fragment_last_task_instruction_message1">As this is your first time, lets get a calibration score to compare against in the future.</string>
+    <string name="fragment_last_task_instruction_message2">When You\'re Ready Tap The Screen To Begin</string>
+    <string name="task_instructions_first_time">As this is your first time, let\'s see what you have to do</string>
+    <string name="task_instructions_first_instruction_message">The aim of the inspection task is for you to find the darker coloured beer and remember where it is</string>
+    <string name="task_instructions_second_instruction_message">The beers are then removed. Simply touch the area you thought you saw the beer. \n That\'s it!</string>
+    <string name="task_instructions_first_instruction_message_sequence_task">The aim of the sequence task is for you to select the numbers in order from 1 onwards</string>
+    <string name="task_instructions_second_instruction_message_sequence_task">When clicked in the right order the numbers disappear. \nYou goal is to clear all the numbers as quickly as possible.</string>
+    <string name="content_description_task_instructions_first_image_sequence_task">Sequence Task Instruction Image</string>
+    <string name="task_instructions_second_message_sequence_task">There are 3 levels, each with increasing amounts of numbers.</string>
+    <string name="content_description_task_instructions_second_image_sequence_task">Sequence Task Instruction Image</string>
+    <string name="content_description_first_instruction_image_sequence">Instruction Image</string>
+    <string name="content_description_second_instruction_image_sequence">Second Instruction Image</string>
+    <string name="content_description_third_instruction_image_sequence">Third Instruction Image</string>
+
+</resources>

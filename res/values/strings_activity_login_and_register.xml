@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login and registering-->
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_show_password">Show password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="register_progress_signing_in">Registering&#8230;</string>
+    <string name="error_invalid_first_name">Please enter a genuine first name</string>
+    <string name="error_invalid_last_name">Please enter a genuine last name</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_registered_email">This email has already been registered</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_login_username">Ensure you have the correct email address</string>
+    <string name="error_login_password">Please check or re-enter your password</string>
+    <string name="login_screen_register_option">Please login or register if you are a new user</string>
+
+    <!-- String related to logging out-->
+    <string name="dialog_logout_message">Are you sure you want to logout?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="activity_register_details_message">Please fill in your details</string>
+    <string name="register_confirm_password_hint">Confirm Password</string>
+
+
+</resources>

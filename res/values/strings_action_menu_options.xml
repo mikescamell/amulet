@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_task_calibration">Task Calibration</string>
+    <string name="action_about">About</string>
+    <string name="action_add_favourite">Add favourite</string>
+    <string name="menu_view_typical_drink">View Typical Drinks</string>
+    <string name="menu_save_favourite_drink">Save Favourite Drink</string>
+    <string name="menu_set_a_favourite_drink">Set a Favourite Drink</string>
+    <string name="menu_clear_entry">Clear Entry</string>
+
+</resources>

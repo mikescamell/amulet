@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?android:attr/buttonBarStyle"
+    android:orientation="vertical">
+
+    <!--fitXY makes the image scale to the buttons size-->
+    <Button
+        android:id="@+id/games_fragment_inspection_task_button"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/inspectiontask2"
+        android:clickable="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:contentDescription="@string/content_description_task_menu_inspection_image"
+        android:fontFamily="sans-serif-condensed"
+        android:scaleType="fitXY"
+        android:text="@string/task_menu_inspection"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/games_fragment_sequence_task_button"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_weight="0.5"
+        android:background="@drawable/task_menu_sequence_task_image"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_task_menu_sequence"
+        android:fontFamily="sans-serif-condensed"
+        android:scaleType="fitXY"
+        android:text="@string/task_menu_sequence"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="example_drink_type">Drink Type</string>
+    <string name="example_date_time">Date and Time</string>
+    <string name="units">%1$s \nUnits</string>
+
+    <!--content descriptions-->
+    <string name="cd_drink_type_icon">Drink Type Image</string>
+    <string name="drink_diary_empty_message">No Drink Diary Entries</string>
+</resources>

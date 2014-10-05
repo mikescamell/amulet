@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_sequence_task_sequence">sequence</string>
+
+    <!--Resume Game Dialog Strings-->
+    <string name="activity_sequence_task_message_dialog">Would you like to resume your game?</string>
+    <string name="activity_sequence_task_pos_dialog">Resume</string>
+    <string name="activity_sequence_task_neg_dialog">Close</string>
+    <string name="activity_sequence_task_neu_dialog">Restart</string>
+
+</resources>

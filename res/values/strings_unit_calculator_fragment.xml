@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--UI-->
+    <string name="unit_calc_total_units_string">"Total Units = "</string>
+    <string name="unit_calc_units_value">%1$s</string>
+    <string name="unit_calc_drink_volume_title">Drink Volume</string>
+    <string name="unit_calc_abv_title">ABV (%)</string>
+    <string name="unit_calc_drink_name_message">This is the name used in your favourites</string>
+    <string name="unit_calc_percentage">%</string>
+    <string name="unit_calc_select_quantity_title">Select\nQuantity</string>
+    <string name="unit_calc_save_to_drink_diary">Save to Drink Diary?</string>
+    <string name="content_description_unit_calc_start_button">Start Task Button</string>
+
+    <!--list of common drink types for add dialog spinner-->
+    <string-array name="unit_calculator_drink_type_array">
+        <item>Set a Typical Drink</item>
+        <item>Beer - 4% (Pint)</item>
+        <item>Bottled Beer - 5%</item>
+        <item>Cider - 4.5% (Pint)</item>
+        <item>Wine - 13.0% (Glass)</item>
+        <item>Champagne - 12.0% (Glass)</item>
+        <item>Spirit - 40% (Single)</item>
+        <item>Alcopop - 4.0% (Bottle)</item>
+    </string-array>
+
+    <string-array name="unit_calculator_measurements">
+        <item>ml</item>
+        <item>pints</item>
+        <item>litres</item>
+        <item>cl</item>
+    </string-array>
+
+    <string-array name="unit_calculator_typical_volumes">
+        <item>Or select by vessel</item>
+        <item>Beer Bottle</item>
+        <item>Glass of Wine</item>
+        <item>Champagne Glass</item>
+        <item>Single Spirit</item>
+        <item>Alcopop Bottle</item>
+    </string-array>
+
+    <string-array name="volumes">
+        <item>275ml</item>
+        <item>750ml</item>
+        <item>1 Litre</item>
+        <item>70cl</item>
+    </string-array>
+
+</resources>

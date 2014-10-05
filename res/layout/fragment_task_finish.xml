@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_task_finish"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="@string/fragment_task_complete_string"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/fragment_your_speed_string"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/fragment_task_finish_speed"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="@string/fragment_speed_string_int"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fragment_task_finish_calibration_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/fragment_new_baseline_string"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/fragment_task_finish_baseline"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="@string/fragment_task_finish_baseline_message_int"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_task_finish_speed_comparison"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="@string/fragment_task_finish_slower_than_baseline"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fragment_last_task_finish_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:text="@string/fragment_last_speed_string_int"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
