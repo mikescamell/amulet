@@ -1,4 +1,4 @@
-amulet
+Amulet
 ======
 
 An m-Health Tool as an Android application
@@ -20,7 +20,11 @@ the app, longitudinal user feedback will allow us to estimate the utility and im
 preparation for further evaluation. The capacity to receive user feedback should be built into the app.
 Examples of user feedback include perceptions of the usability of the app and perceptions of task validity.
  
-Below are some explanations of the app i developed and why. The app can be downloaded here:
+For more information see my project here:
+
+http://bit.ly/1Dyr2SJ
+
+The app can be downloaded here:
  
 https://www.dropbox.com/s/t3zek0q9ct1kwd4/Amulet.apk?dl=0
 
